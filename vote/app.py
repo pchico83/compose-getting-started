@@ -40,9 +40,6 @@ def hello():
             votesA = "<i>An error occured</i>"
             votesB = "<i>An error occured</i>"
 
-    with open('/var/run/secrets/kubernetes.io/serviceaccount/namespace', 'r') as fp:
-        namespace = fp.read()
-
     resp = make_response(render_template(
         'index.html',
         option_a=option_a,
