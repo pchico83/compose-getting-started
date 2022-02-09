@@ -1,0 +1,4 @@
+{
+    "forwardPorts": [8080],
+    "initializeCommand": ["sh", "-c", "curl https://get.okteto.com -sSfL | sh"]
+}
