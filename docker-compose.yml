@@ -4,6 +4,8 @@ services:
     scale: 2
     ports:
       - 8080:8080
+    volumes:
+      - vote:/src
 
   redis:
     image: redis
