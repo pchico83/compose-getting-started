@@ -45,7 +45,6 @@ def hello():
         option_a=option_a,
         option_b=option_b,
         hostname=hostname,
-        namespace=namespace,
         votes_a=votesA,
         votes_b=votesB,
     ))
