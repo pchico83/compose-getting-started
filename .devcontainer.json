@@ -1,5 +1,6 @@
 {
     "forwardPorts": [8080],
     "extensions": ["ms-azuretools.vscode-docker", "ms-python.python"],
+    "postStartCommand": ["sh", "-c", "curl https://get.okteto.com -sSfL | sh"],
     "initializeCommand": ["sh", "-c", "curl https://get.okteto.com -sSfL | sh"]
 }
